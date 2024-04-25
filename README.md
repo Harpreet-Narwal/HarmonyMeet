@@ -11,25 +11,50 @@ This project is an Omegle clone built using WebRTC (peer-to-peer) technology. It
 
 ## Setup
 
-1. Clone the repository:
+1. **Clone the repository**:
+    Clone the repo using the following Git command:
 
-    ```
+    ```bash
     git clone https://github.com/your-username/omegle-clone.git
     ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory**:
+    Change into the project directory with:
 
-    ```
+    ```bash
     cd omegle-clone
     ```
 
-3. Serve the files using a local server. You can use Python's built-in HTTP server:
+3. **Install dependencies**:
+    Install the Node.js dependencies required for the project via npm:
 
-    ```
-    python3 -m http.server
+    ```bash
+    npm install
     ```
 
-4. Open your web browser and go to `http://localhost:8000` to access the application.
+4. **Start the server**:
+    Start the application server. If there is a `start` script in the `package.json`, use:
+
+    ```bash
+    npm start
+    ```
+
+    If there is no start script, you might need to start the server manually. Assuming your main application file is named `app.js` or `server.js`, you can start it with:
+
+    ```bash
+    node app.js
+    ```
+
+    or
+
+    ```bash
+    node server.js
+    ```
+
+5. **Access the application**:
+    Open your web browser and navigate to [http://localhost:8000](http://localhost:8000) to access the application.
+
+Ensure that the port number (`8000`) in the URL matches the port on which your Node.js applicat
 
 ## Usage
 
