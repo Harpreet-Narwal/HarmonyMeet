@@ -1,1 +1,1 @@
-## Omegle clone using WebRTC (p2p)
+## Harmony Meet for peer-to-peer video/audio communication WebRTC (p2p)
